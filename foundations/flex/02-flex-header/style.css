@@ -9,11 +9,16 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 10px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin: 5px;
 }
 
 a {
@@ -23,3 +28,16 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+div {
+  display: flex;
+  box-sizing: content-box;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5em;
+}
+
+/* .right-links {
+  padding-left: 0;
+  padding-right: 40px;
+} */
